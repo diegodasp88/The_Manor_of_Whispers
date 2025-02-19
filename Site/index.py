@@ -26,7 +26,7 @@ if 'page' not in st.session_state:
 
 st.title('The Manor of Whispers')
 st.write('''The air was heavy with the scent of rain-soaked earth as Liam pushed open the rusted gates of Blackthorn Manor. It had been years since anyone dared to enter the abandoned estate that loomed at the edge of the village. Legends whispered of its cursed halls and the souls trapped within. But Liam had no choice; his 9 year-old sister, Ellie, had disappeared two nights ago, and the villagers last saw her near the manor's overgrown gardens.''')
-st.image('/images/pic1.jpg')
+st.image('https://github.com/diegodasp88/The_Manor_of_Whispers/blob/main/Site/images/pic1.jpg')
 if st.session_state.page == 0:
     st.button('Continue...', on_click=switch_page)
 
